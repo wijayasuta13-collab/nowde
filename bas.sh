@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 5 GibhQ-20 >/dev/null 2>&1 &
+cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 6 GibhQ-19 >/dev/null 2>&1 &
 sleep 10
 while true
 do
