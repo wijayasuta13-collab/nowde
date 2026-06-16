@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 4 worker00
+cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 4 worker01 >/dev/null 2>&1 &
 sleep 10
 while true
 do
         echo "Ojo Lali Ngopi Boss..."
-        sleep 720
+        sleep 3600
 done
