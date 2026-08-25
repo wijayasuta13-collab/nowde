@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 8 worker13 >/dev/null 2>&1 &
+cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 8 worker13
 sleep 100
 while true
 do
